@@ -36,20 +36,21 @@ body {
 
 .card-profile h3 {
   position: absolute;
-  width: 196px;
-  height: 26px;
-  left: 110px;
+  width: 190px;
+  height: 30px;
+  left: 90px;
   top: 180px;
-
+  font-size: x-large;
   color: var(--text-color);
 }
 
 h6 {
   position: absolute;
   width: 128px;
-  height: 17px;
-  left: 130px;
-  top: 200px;
+  height: 20px;
+  left: 110px;
+  top: 210px;
+  font-size: small;
   color: var(--text-color);
 }
 
@@ -78,16 +79,17 @@ h6 {
   gap: 29px;
 }
 
-.card-links ul img {
+.card-links img {
   width: 24px;
   height: 24px;
-  background-color: #837E9F;
+  color: var(--text-color);
+
 
 }
 
 .card-links span {
   display: block;
-  color: #837E9F !important;
+  color: var(--text-color);
   font-style: normal;
   font-size: 20px;
   line-height: 16px;
@@ -104,6 +106,7 @@ h6 {
 
   border-radius: 20px;
   background: #302F3D;
+
 }
 
 .card-tecnologias header h2 {
@@ -119,8 +122,9 @@ h6 {
   font-size: 20px;
   line-height: 15px;
 
-  color: #837E9F;
+  color: var(--text-color);
 }
+
 
 .card-tecnologias main button {
 
@@ -153,8 +157,9 @@ h6 {
   font-size: 20px;
   line-height: 15px;
 
-  color: #837E9F;
+  color: var(--text-color);
 }
+
 
 .card-experience li {
   color: var(--text-color);
@@ -184,14 +189,15 @@ h6 {
   font-size: 20px;
   line-height: 15px;
 
-  color: #837E9F;
+  color: var(--text-color);
+
 }
 
 .card-projects {
   position: absolute;
-  width: 855px;
-  height: 84px;
-  left: 440px;
+  width: 860px;
+  height: 80px;
+  left: 430px;
   top: 40px;
 
   background: #302F3D;
@@ -214,4 +220,211 @@ h6 {
   left: 700px;
   top: 10px;
   color: var(--text-color);
+}
+
+.card-onix1 {
+  position: absolute;
+  width: 390px;
+  height: 200px;
+  left: 430px;
+  top: 150px;
+
+  color: var(--text-color);
+  background: #302F3D;
+
+  border-radius: 20px;
+}
+
+
+.card-onix1 img {
+  position: center;
+  width: 70px;
+  height: 30px;
+  left: 30px;
+  top: 35px;
+
+}
+
+.card-onix1 p {
+  position: static;
+  width: 360px;
+  height: 60px;
+  left: 490px;
+  top: 280px;
+
+  text-align: justify;
+}
+
+.card-onix1 h6 {
+  width: 15px;
+  height: 15px;
+  left: 280px;
+  top: 110px;
+  font-size: 50;
+
+
+}
+
+.card-onix1 span {
+  font-style: normal;
+  font-weight: 750;
+  font-size: 20px;
+  line-height: 27px;
+  top: 40px;
+
+  color: #837E9F;
+
+}
+
+.card-onix1 h5 {
+  border-radius: 10px;
+
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  left: 250px;
+  top: 110px;
+
+  background: #E7DE79;
+  border: 2px solid #837E9F;
+}
+
+.card-onixx2 {
+  position: absolute;
+  width: 395px;
+  height: 200px;
+  left: 900px;
+  top: 152px;
+
+  color: var(--text-color);
+  background: #302F3D;
+
+  border-radius: 20px;
+}
+
+
+.card-onixx2 img {
+  position: center;
+  width: 70px;
+  height: 30px;
+  left: 30px;
+  top: 35px;
+
+}
+
+.card-onixx2 p {
+  position: static;
+  width: 350px;
+  height: 60px;
+  left: 490px;
+  top: 280px;
+
+  text-align: justify;
+}
+
+.card-onixx2 h6 {
+  width: 15px;
+  height: 15px;
+  left: 280px;
+  top: 110px;
+  font-size: 50;
+
+
+}
+
+.card-onixx2 span {
+  font-style: normal;
+  font-weight: 750;
+  font-size: 20px;
+  line-height: 27px;
+  top: 40px;
+
+  color: #837E9F;
+
+}
+
+.card-onixx2 h5 {
+  border-radius: 10px;
+  color: #837E9F;
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  left: 250px;
+  top: 110px;
+
+
+
+  background: #E7DE79;
+  border: 2px solid #837E9F;
+}
+
+
+.card-Post {
+  position: absolute;
+  width: 865px;
+  height: 70px;
+  left: 430px;
+  top: 380px;
+
+  background: #302F3D;
+  border-radius: 20px;
+}
+
+.card-Post h2 {
+  position: absolute;
+  width: 150px;
+  height: 26px;
+  left: 50px;
+  top: 5px;
+
+  color: var(--text-color);
+}
+
+.card-erro {
+  position: absolute;
+  width: 870px;
+  height: 201px;
+  left: 428px;
+  top: 489px;
+
+  border-radius: 20px;
+  background: #302F3D;
+}
+
+.card-erro img {
+  position: absolute;
+  width: 160px;
+  height: 160px;
+  left: 35px;
+  top: 15px;
+
+  border-radius: 200px;
+}
+
+.card-erro header h4 {
+  position: relative;
+  width: 500px;
+  height: 10px;
+  left: 300px;
+  top: 20px;
+  color: #837E9F;
+}
+
+.card-erro header h5 {
+  position: absolute;
+  width: 500px;
+  height: 300px;
+  left: 300px;
+  top: 50px;
+  color: #837E9F;
+}
+
+
+.card-erro header h6 {
+  position: absolute;
+  width: 300px;
+  height: 500px;
+  left: 400px;
+  top: 150px;
+  font-size: small;
 }
